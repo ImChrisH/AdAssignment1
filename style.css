@@ -21,7 +21,7 @@ body {
     top:22px;
 }
 
-button{
+.burger{
     position:absolute;
     right: 22px;
     top:22px;
@@ -33,9 +33,9 @@ button{
 }
 
 .top {
-/*     width: 90%; */
+    /* width: 90%; */
     position: relative;
-/*     margin: auto;    */
+    /* margin: auto;    */
     
 }
 
@@ -60,7 +60,7 @@ button{
 
 
 .elegant:hover{
-    transform:scale(1.1);
+    transform:scale(1.2);
     /* background-color: rgba(218, 165, 32, 0.842); */
     background-color: rgba(0, 167, 0, 0.781);
     border-radius: 200px;
@@ -147,6 +147,20 @@ figcaption{
 
 .bigbox>div>h2 {
     text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+.moreinfo {
+    background-color: rgba(245, 222, 179, 0.87);
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    color:grey;
+    transition-duration: .5s;
+}
+
+.moreinfo:hover{
+    transform: scale(1.05);
+    background-color: goldenrod;
 }
 
 a {
